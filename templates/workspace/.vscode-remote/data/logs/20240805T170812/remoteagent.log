@@ -1,0 +1,22 @@
+2024-08-05 17:08:12.467 [info] 
+
+
+
+
+2024-08-05 17:08:12.485 [info] Extension host agent started.
+2024-08-05 17:08:12.564 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-08-05 17:08:12.564 [info] Extension 'github.vscode-pull-request-github' v0.92.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-08-05 17:08:12.565 [info] Installing extensions...
+2024-08-05 17:08:12.592 [info] Extension 'ms-python.python' v2024.10.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ms-python.python@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'formulahendry.auto-close-tag' v0.5.15 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'formulahendry.auto-close-tag@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'eventyret.bootstrap-4-cdn-snippet' v1.13.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'eventyret.bootstrap-4-cdn-snippet@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'hookyqr.beautify' v1.4.11 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'hookyqr.beautify@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'matt-rudge.auto-open-preview-panel' v0.0.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'matt-rudge.auto-open-preview-panel@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'ms-toolsai.jupyter' v2024.6.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ms-toolsai.jupyter@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'ms-toolsai.jupyter-keymap' v1.1.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ms-toolsai.jupyter-keymap@1.2.3'.
+2024-08-05 17:08:12.593 [info] Extension 'ms-toolsai.jupyter-renderers' v1.0.18 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ms-toolsai.jupyter-renderers@1.2.3'.
+2024-08-05 17:08:15.514 [info] [100.64.165.23][ca481e42][ManagementConnection] New connection established.
+2024-08-05 17:08:15.648 [info] [100.64.215.240][c90d7a98][ExtensionHostConnection] New connection established.
+2024-08-05 17:08:15.693 [info] [100.64.215.240][c90d7a98][ExtensionHostConnection] <944> Launched Extension Host Process.
+2024-08-05 17:21:11.575 [info] [100.64.165.23][ca481e42][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-05 17:21:11.624 [info] [100.64.215.240][c90d7a98][ExtensionHostConnection] <944> Extension Host Process exited with code: 0, signal: null.

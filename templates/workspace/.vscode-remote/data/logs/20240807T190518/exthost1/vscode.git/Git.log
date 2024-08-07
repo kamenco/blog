@@ -1,0 +1,54 @@
+2024-08-07 19:05:28.052 [info] [main] Log level: Info
+2024-08-07 19:05:28.052 [info] [main] Validating found git in: "git"
+2024-08-07 19:05:28.052 [info] [main] Using git "2.45.2" from "git"
+2024-08-07 19:05:28.052 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2024-08-07 19:05:28.052 [info] [Model][openRepository] Opened repository: /workspace/blog
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-07 19:05:28.052 [info] > git config --get commit.template [9ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [50ms]
+2024-08-07 19:05:28.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-07 19:05:28.052 [info] > git status -z -uall [3ms]
+2024-08-07 19:05:28.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-07 19:05:28.052 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2024-08-07 19:05:28.052 [info] > git config --get commit.template [31ms]
+2024-08-07 19:05:28.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-07 19:05:28.052 [info] > git rev-parse --show-toplevel [21ms]
+2024-08-07 19:05:28.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-07 19:05:28.058 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2024-08-07 19:05:28.060 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-07 19:05:28.062 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-08-07 19:05:28.066 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-07 19:05:28.067 [info] > git diff --name-status -z --diff-filter=ADMR 24d8af7c1e83a923e2a9c0be5e7d6412d5d341df...refs/remotes/origin/main [3ms]
+2024-08-07 19:05:28.069 [info] > git status -z -uall [3ms]
+2024-08-07 19:05:28.072 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-07 19:05:28.072 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-07 19:05:28.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-07 19:05:28.075 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-07 19:05:28.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-07 19:05:28.562 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-07 19:05:30.728 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:05:30.728 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:05:33.668 [info] > git show --textconv :codestar/settings.py [2ms]
+2024-08-07 19:05:33.669 [info] > git ls-files --stage -- /workspace/blog/codestar/settings.py [1ms]
+2024-08-07 19:05:33.672 [info] > git cat-file -s 9a8052fbb075980798658c348ecf0d1d007f3670 [1ms]
+2024-08-07 19:10:30.631 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:10:30.631 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:15:30.637 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:15:30.637 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:20:30.640 [info] > git config --local branch.main.github-pr-owner-number [0ms]
+2024-08-07 19:20:30.641 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:25:30.645 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:25:30.645 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:30:30.648 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:30:30.648 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:34:59.789 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-07 19:35:30.651 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:35:30.651 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:40:30.655 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 19:40:30.655 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 19:41:31.212 [info] > git check-ignore -v -z --stdin [1ms]

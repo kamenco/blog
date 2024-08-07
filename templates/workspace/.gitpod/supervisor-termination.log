@@ -1,0 +1,84 @@
+[270ns] Shutting down all processes 
+[172.674µs] Terminating process supervisor with PID 38 (state: S, cmdlind: [supervisor run] <nil>). 
+[15.008438054s] Terminating process didn't finish, but had to be force killed 
+[15.00866684s] Terminating process curl with PID 4274 (state: S, cmdlind: [curl -s -X POST -H x-api-key: jceBCdeGZP9RDeUNCfM4jIQ39Cx0jtG51QgcwDwc -d {"activity_time":"2024-08-07T07:10:25.000Z","actor":"d76efbc2-7563-467b-85f8-2432b2e1d902","verb":"running","activity_object":"Gitpod Workspace","extra_data":"{}"} https://1xthkmzwg3.execute-api.eu-west-1.amazonaws.com/prod/lrsapi/] <nil>). 
+[15.008683609s] Terminating process didn't finish, but had to be force killed 
+[15.008693949s] Terminating process postgres with PID 862 (state: S, cmdlind: [postgres: autovacuum launcher   ] <nil>). 
+[15.008714076s] Terminating process didn't finish, but had to be force killed 
+[15.008720176s] Terminating process postgres with PID 859 (state: S, cmdlind: [postgres: checkpointer   ] <nil>). 
+[15.008732593s] Terminating process bash with PID 1299 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[15.008740208s] Terminating process didn't finish, but had to be force killed 
+[15.008741486s] Terminating process didn't finish, but had to be force killed 
+[15.008763131s] Terminating process postgres with PID 861 (state: S, cmdlind: [postgres: walwriter   ] <nil>). 
+[15.008770628s] Terminating process didn't finish, but had to be force killed 
+[15.008782962s] Terminating process postgres with PID 860 (state: S, cmdlind: [postgres: background writer   ] <nil>). 
+[15.008803606s] Terminating process didn't finish, but had to be force killed 
+[15.008808168s] Terminating process bash with PID 1452 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh] <nil>). 
+[15.008811899s] Terminating process postgres with PID 864 (state: S, cmdlind: [postgres: logical replication launcher   ] <nil>). 
+[15.008827444s] Terminating process didn't finish, but had to be force killed 
+[15.008800328s] Terminating process bash with PID 647 (state: S, cmdlind: [/bin/bash] <nil>). 
+[15.008840773s] Terminating process python3 with PID 2085 (state: R, cmdlind: [] <nil>). 
+[15.008838939s] Terminating process node with PID 1288 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20240807T061018] <nil>). 
+[15.008844394s] Terminating process didn't finish, but had to be force killed 
+[15.008845697s] Terminating process didn't finish, but had to be force killed 
+[15.008811361s] Terminating process node with PID 75 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension ms-python.python --install-extension formulahendry.auto-close-tag --install-extension eventyret.bootstrap-4-cdn-snippet --install-extension hookyqr.beautify --install-extension matt-rudge.auto-open-preview-panel --install-extension ms-toolsai.jupyter --install-extension ms-toolsai.jupyter-keymap --install-extension ms-toolsai.jupyter-renderers --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[15.008899703s] Terminating process postgres with PID 857 (state: S, cmdlind: [/usr/lib/postgresql/12/bin/postgres -D /workspace/.pgsql/data -k /home/gitpod/.pg_ctl/sockets] <nil>). 
+[15.008910945s] Terminating process didn't finish, but had to be force killed 
+[15.008841153s] Terminating process didn't finish, but had to be force killed 
+[15.008927326s] Terminating process didn't finish, but had to be force killed 
+[15.008948846s] Terminating process didn't finish, but had to be force killed 
+[15.008980008s] Terminating process postgres with PID 863 (state: S, cmdlind: [postgres: stats collector   ] <nil>). 
+[15.009003798s] Terminating process didn't finish, but had to be force killed 
+[15.009168426s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.009818684s] Terminating process didn't finish, but had to be force killed 
+[15.009219619s] Terminating process bash with PID 647 (state: R, cmdlind: [] <nil>). 
+[15.009224075s] Terminating process postgres with PID 860 (state: R, cmdlind: [] <nil>). 
+[15.009829711s] Terminating process didn't finish, but had to be force killed 
+[15.009829528s] Terminating process postgres with PID 861 (state: R, cmdlind: [] <nil>). 
+[15.009835212s] Terminating process didn't finish, but had to be force killed 
+[15.009838865s] Terminating process postgres with PID 862 (state: R, cmdlind: [] <nil>). 
+[15.009274067s] Terminating process postgres with PID 859 (state: R, cmdlind: [] <nil>). 
+[15.009859722s] Terminating process didn't finish, but had to be force killed 
+[15.00984875s] Terminating process postgres with PID 863 (state: R, cmdlind: [] <nil>). 
+[15.009868096s] Terminating process didn't finish, but had to be force killed 
+[15.009870464s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.009880295s] Terminating process didn't finish, but had to be force killed 
+[15.009848918s] Couldn't obtain process information for PID 4274. 
+[15.009848976s] Terminating process didn't finish, but had to be force killed 
+[15.009884946s] Terminating process postgres with PID 864 (state: R, cmdlind: [] <nil>). 
+[15.009893465s] Terminating process didn't finish, but had to be force killed 
+[15.009905451s] Terminating process python3 with PID 2085 (state: R, cmdlind: [] <nil>). 
+[15.009912872s] Terminating process didn't finish, but had to be force killed 
+[15.010118002s] Terminating process python3 with PID 2085 (state: R, cmdlind: [] <nil>). 
+[15.010125984s] Terminating process didn't finish, but had to be force killed 
+[15.010189803s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.010204337s] Terminating process didn't finish, but had to be force killed 
+[15.010218572s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.010226704s] Terminating process didn't finish, but had to be force killed 
+[15.010418232s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.010429811s] Terminating process didn't finish, but had to be force killed 
+[15.010429444s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.010437725s] Terminating process didn't finish, but had to be force killed 
+[15.010540652s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.010545024s] Terminating process didn't finish, but had to be force killed 
+[15.010551167s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.01056735s] Terminating process didn't finish, but had to be force killed 
+[15.010707956s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.010721112s] Terminating process didn't finish, but had to be force killed 
+[15.010728494s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.010737024s] Terminating process didn't finish, but had to be force killed 
+[15.011176912s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.011189427s] Terminating process postgres with PID 857 (state: R, cmdlind: [] <nil>). 
+[15.011198047s] Terminating process didn't finish, but had to be force killed 
+[15.011190377s] Terminating process didn't finish, but had to be force killed 
+[15.012325332s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.012335879s] Terminating process didn't finish, but had to be force killed 
+[15.012418354s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.012428134s] Terminating process didn't finish, but had to be force killed 
+[15.012526363s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.012538405s] Terminating process didn't finish, but had to be force killed 
+[15.012643027s] Terminating process node with PID 1288 (state: R, cmdlind: [] <nil>). 
+[15.012656546s] Terminating process didn't finish, but had to be force killed 
+[15.012730857s] Couldn't obtain process information for PID 1299. 
+[15.03515187s] Couldn't obtain process information for PID 75. 
+[15.508467891s] Finished shutting down all processes. 

@@ -1,0 +1,51 @@
+2024-08-06 08:05:13.777 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-08-06 08:05:13.777 [info] Activation> Extension version: 0.92.0
+2024-08-06 08:05:14.186 [info] Looking for git repository
+2024-08-06 08:05:14.186 [info] Found 0 repositories during activation
+2024-08-06 08:05:14.186 [info] Git repository found, initializing review manager and pr tree view.
+2024-08-06 08:05:14.189 [info] Registering git provider
+2024-08-06 08:05:14.189 [info] Review+0> Validate state in progress
+2024-08-06 08:05:14.189 [info] Review+0> Validating state...
+2024-08-06 08:05:14.241 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 08:05:14.242 [info] Trying to use globalState for assignableUsers.
+2024-08-06 08:05:14.256 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 08:05:14.256 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 08:05:14.295 [info] GlobalState does not exist for assignableUsers.
+2024-08-06 08:19:01.010 [info] Repo state for file:///workspace/blog changed.
+2024-08-06 08:19:01.010 [info] Repo file:///workspace/blog has already been setup.
+2024-08-06 09:56:02.247 [info] Review+0> Validate state in progress
+2024-08-06 09:56:02.247 [info] Review+0> Validating state...
+2024-08-06 09:56:02.417 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 09:56:02.418 [info] Using in-memory cached assignable users.
+2024-08-06 09:56:02.422 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 09:56:02.422 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 09:56:39.047 [info] Review+0> Validate state in progress
+2024-08-06 09:56:39.047 [info] Review+0> Validating state...
+2024-08-06 09:56:39.083 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 09:56:39.083 [info] Using in-memory cached assignable users.
+2024-08-06 09:56:39.087 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 09:56:39.087 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 09:57:12.350 [info] Review+0> Validate state in progress
+2024-08-06 09:57:12.350 [info] Review+0> Validating state...
+2024-08-06 09:57:12.404 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 09:57:12.404 [info] Using in-memory cached assignable users.
+2024-08-06 09:57:12.408 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 09:57:12.408 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 09:57:19.341 [info] Review+0> Validate state in progress
+2024-08-06 09:57:19.341 [info] Review+0> Validating state...
+2024-08-06 09:57:19.393 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 09:57:19.393 [info] Using in-memory cached assignable users.
+2024-08-06 09:57:19.397 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 09:57:19.397 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 10:21:43.022 [info] Review+0> Validate state in progress
+2024-08-06 10:21:43.022 [info] Review+0> Validating state...
+2024-08-06 10:21:43.059 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 10:21:43.059 [info] Using in-memory cached assignable users.
+2024-08-06 10:21:43.063 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 10:21:43.063 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-08-06 10:21:52.386 [info] Review+0> Validate state in progress
+2024-08-06 10:21:52.387 [info] Review+0> Validating state...
+2024-08-06 10:21:52.437 [info] Found GitHub remote for folder /workspace/blog
+2024-08-06 10:21:52.437 [info] Using in-memory cached assignable users.
+2024-08-06 10:21:52.441 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-08-06 10:21:52.441 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,35 @@
+2024-08-05 17:08:19.054 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/workspace/blog/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574598
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574507)
+	at async d.ensureWatchersReady (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/workspace/blog/.pixi/envs'
+}
+2024-08-05 17:08:19.054 [error] Dir "/workspace/blog/.pixi/envs" is not watchable (directory does not exist)
+2024-08-05 17:08:19.106 [info] Default formatter is set to null for workspace /workspace/blog
+2024-08-05 17:08:19.175 [info] > conda info --json
+2024-08-05 17:08:19.190 [info] > ~/.pyenv/versions/3.12.2/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/interpreterInfo.py
+2024-08-05 17:08:19.226 [info] Python interpreter path: ~/.pyenv/versions/3.12.2/bin/python
+2024-08-05 17:08:19.368 [info] > ~/.pyenv/bin/pyenv which python
+2024-08-05 17:08:19.368 [info] cwd: .
+2024-08-05 17:08:20.498 [info] Starting Jedi language server for blog.
+2024-08-05 17:08:20.625 [info] > pixi --version
+2024-08-05 17:08:20.625 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-05 17:08:20.625 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-05 17:08:20.626 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-05 17:08:20.626 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-05 17:08:20.626 [info] Send text to terminal: pyenv shell 3.12.2

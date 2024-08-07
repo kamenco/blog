@@ -1,0 +1,90 @@
+2024-08-06 15:42:03.945 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/workspace/blog/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574598
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574507)
+	at async d.ensureWatchersReady (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/workspace/blog/.pixi/envs'
+}
+2024-08-06 15:42:03.945 [error] Dir "/workspace/blog/.pixi/envs" is not watchable (directory does not exist)
+2024-08-06 15:42:04.006 [info] Default formatter is set to null for workspace /workspace/blog
+2024-08-06 15:42:04.191 [info] > conda info --json
+2024-08-06 15:42:04.253 [info] > ~/.pyenv/versions/3.12.2/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/interpreterInfo.py
+2024-08-06 15:42:04.287 [info] Python interpreter path: ~/.pyenv/versions/3.12.2/bin/python
+2024-08-06 15:42:04.352 [info] > ~/.pyenv/bin/pyenv which python
+2024-08-06 15:42:04.352 [info] cwd: .
+2024-08-06 15:42:05.522 [info] > pixi --version
+2024-08-06 15:42:05.523 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-06 15:42:05.523 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 15:42:05.523 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 15:42:05.524 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 15:42:05.524 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 15:42:05.530 [info] Starting Jedi language server for blog.
+2024-08-06 15:42:27.651 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 15:48:31.963 [info] Running installed packages checker:  {
+  id: '/home/gitpod/.pyenv/versions/3.12.2/bin/python',
+  sysPrefix: '/home/gitpod/.pyenv/versions/3.12.2',
+  envType: 'Pyenv',
+  envName: '3.12.2',
+  envPath: '/home/gitpod/.pyenv/versions/3.12.2',
+  path: '/home/gitpod/.pyenv/versions/3.12.2/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.2 (main, Jul 18 2024, 18:16:04) [GCC 11.4.0]',
+  version: {
+    raw: '3.12.2',
+    major: 3,
+    minor: 12,
+    patch: 2,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: "Python 3.12.2 64-bit ('3.12.2')",
+  detailedDisplayName: "Python 3.12.2 64-bit ('3.12.2': pyenv)",
+  type: undefined
+} /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/installed_check.py /workspace/blog/requirements.txt
+2024-08-06 15:48:31.963 [info] > ~/.pyenv/versions/3.12.2/bin/python /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/installed_check.py ./requirements.txt
+2024-08-06 15:53:50.610 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 15:59:56.312 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 16:03:21.909 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 16:07:38.555 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 16:07:44.009 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 16:17:13.888 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/urls.py
+2024-08-06 16:38:51.608 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 16:38:51.608 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 16:49:26.935 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 16:49:26.936 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 16:49:40.482 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 16:49:40.482 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:19:07.639 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:19:07.639 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:30:10.279 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:30:10.280 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:36:03.368 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:36:03.368 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:37:39.932 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:37:39.933 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:47:22.605 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:47:22.605 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:48:07.716 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:48:07.716 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:48:57.123 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:48:57.124 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:49:52.396 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:49:52.396 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 17:51:44.987 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 17:51:44.987 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 18:06:42.123 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 18:06:42.124 [info] Send text to terminal: pyenv shell 3.12.2

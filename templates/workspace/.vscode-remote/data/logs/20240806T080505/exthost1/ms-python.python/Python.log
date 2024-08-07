@@ -1,0 +1,44 @@
+2024-08-06 08:05:12.474 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/workspace/blog/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574598
+	at /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574789
+	at Array.map (<anonymous>)
+	at d.initWatchers (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:574507)
+	at async d.ensureWatchersReady (/workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/out/client/extension.js:2:536827)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/workspace/blog/.pixi/envs'
+}
+2024-08-06 08:05:12.474 [error] Dir "/workspace/blog/.pixi/envs" is not watchable (directory does not exist)
+2024-08-06 08:05:12.528 [info] Default formatter is set to null for workspace /workspace/blog
+2024-08-06 08:05:12.727 [info] > conda info --json
+2024-08-06 08:05:12.748 [info] > ~/.pyenv/versions/3.12.2/bin/python -I /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/get_output_via_markers.py /workspace/.vscode-remote/extensions/ms-python.python-2024.10.0-universal/python_files/interpreterInfo.py
+2024-08-06 08:05:12.781 [info] Python interpreter path: ~/.pyenv/versions/3.12.2/bin/python
+2024-08-06 08:05:12.820 [info] > ~/.pyenv/bin/pyenv which python
+2024-08-06 08:05:12.820 [info] cwd: .
+2024-08-06 08:05:13.680 [info] > pixi --version
+2024-08-06 08:05:13.680 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-06 08:05:13.680 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 08:05:13.681 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 08:05:13.681 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 08:05:13.681 [info] Send text to terminal: pyenv shell 3.12.2
+2024-08-06 08:05:13.884 [info] Starting Jedi language server for blog.
+2024-08-06 08:21:59.519 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 08:33:06.744 [info] Discover tests for workspace name: blog - uri: /workspace/blog/about/models.py
+2024-08-06 08:42:34.126 [info] Discover tests for workspace name: blog - uri: /workspace/blog/about/admin.py
+2024-08-06 09:02:50.295 [info] Discover tests for workspace name: blog - uri: /workspace/blog/about/views.py
+2024-08-06 09:46:12.618 [info] Discover tests for workspace name: blog - uri: /workspace/blog/about/urls.py
+2024-08-06 09:53:32.274 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/urls.py
+2024-08-06 09:56:23.841 [info] Discover tests for workspace name: blog - uri: /workspace/blog/codestar/settings.py
+2024-08-06 10:14:15.913 [warning] could not find a pixi interpreter for the interpreter at /home/gitpod/.pyenv/versions/3.12.2/bin/python
+2024-08-06 10:14:15.914 [info] Send text to terminal: pyenv shell 3.12.2

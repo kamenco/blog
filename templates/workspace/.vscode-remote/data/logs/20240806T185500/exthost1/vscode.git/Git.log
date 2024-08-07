@@ -1,0 +1,93 @@
+2024-08-06 18:55:09.269 [info] Log level: Info
+2024-08-06 18:55:09.269 [info] Validating found git in: "git"
+2024-08-06 18:55:09.269 [info] Using git "2.45.2" from "git"
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-06 18:55:09.269 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2024-08-06 18:55:09.269 [info] Open repository: /workspace/blog
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [26ms]
+2024-08-06 18:55:09.269 [info] > git config --get commit.template [29ms]
+2024-08-06 18:55:09.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-06 18:55:09.269 [info] > git status -z -uall [23ms]
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [20ms]
+2024-08-06 18:55:09.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-08-06 18:55:09.269 [info] > git config --get commit.template [5ms]
+2024-08-06 18:55:09.269 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-06 18:55:09.269 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-06 18:55:09.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-06 18:55:09.277 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-06 18:55:09.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-08-06 18:55:09.281 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-08-06 18:55:09.283 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-06 18:55:09.287 [info] > git status -z -uall [2ms]
+2024-08-06 18:55:09.287 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-08-06 18:55:09.289 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-06 18:55:09.294 [info] > git diff --name-status -z --diff-filter=ADMR 24d8af7c1e83a923e2a9c0be5e7d6412d5d341df...refs/remotes/origin/main [5ms]
+2024-08-06 18:55:09.295 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-06 18:55:09.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-06 18:55:09.298 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-06 18:55:09.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-06 18:55:09.780 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 18:55:11.626 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 18:55:11.626 [warning] git config failed: Failed to execute git
+2024-08-06 18:55:11.803 [info] > git show --textconv :about/migrations/0001_initial.py [2ms]
+2024-08-06 18:55:11.804 [info] > git ls-files --stage -- /workspace/blog/about/migrations/0001_initial.py [1ms]
+2024-08-06 18:55:11.806 [info] > git cat-file -s 6bea87018c24a0c39b6c91fd00ba0efea853c431 [1ms]
+2024-08-06 19:00:11.549 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:00:11.549 [warning] git config failed: Failed to execute git
+2024-08-06 19:05:11.553 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:05:11.553 [warning] git config failed: Failed to execute git
+2024-08-06 19:10:11.556 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:10:11.556 [warning] git config failed: Failed to execute git
+2024-08-06 19:15:11.560 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:15:11.560 [warning] git config failed: Failed to execute git
+2024-08-06 19:20:11.565 [info] > git config --local branch.main.github-pr-owner-number [0ms]
+2024-08-06 19:20:11.565 [warning] git config failed: Failed to execute git
+2024-08-06 19:25:11.569 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:25:11.569 [warning] git config failed: Failed to execute git
+2024-08-06 19:27:22.036 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 19:27:23.429 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 19:27:24.842 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 19:27:26.606 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 19:28:12.412 [info] > git show --textconv :about/migrations/__init__.py [2ms]
+2024-08-06 19:28:12.413 [info] > git ls-files --stage -- /workspace/blog/about/migrations/__init__.py [1ms]
+2024-08-06 19:28:12.416 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2024-08-06 19:28:42.277 [info] > git show --textconv :about/migrations/__init__.py [2ms]
+2024-08-06 19:28:42.278 [info] > git ls-files --stage -- /workspace/blog/about/migrations/__init__.py [1ms]
+2024-08-06 19:28:42.281 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2024-08-06 19:28:43.620 [info] > git show --textconv :about/migrations/0001_initial.py [3ms]
+2024-08-06 19:28:43.621 [info] > git ls-files --stage -- /workspace/blog/about/migrations/0001_initial.py [2ms]
+2024-08-06 19:28:43.623 [info] > git cat-file -s 6bea87018c24a0c39b6c91fd00ba0efea853c431 [1ms]
+2024-08-06 19:30:11.572 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:30:11.573 [warning] git config failed: Failed to execute git
+2024-08-06 19:35:11.577 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:35:11.577 [warning] git config failed: Failed to execute git
+2024-08-06 19:40:11.582 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:40:11.582 [warning] git config failed: Failed to execute git
+2024-08-06 19:45:11.586 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:45:11.586 [warning] git config failed: Failed to execute git
+2024-08-06 19:46:11.910 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-08-06 19:46:11.913 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-08-06 19:46:12.778 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 19:50:11.591 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:50:11.591 [warning] git config failed: Failed to execute git
+2024-08-06 19:55:11.595 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 19:55:11.595 [warning] git config failed: Failed to execute git
+2024-08-06 20:00:11.599 [info] > git config --local branch.main.github-pr-owner-number [0ms]
+2024-08-06 20:00:11.599 [warning] git config failed: Failed to execute git
+2024-08-06 20:02:02.932 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 20:02:08.166 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 20:02:09.589 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 20:02:13.419 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 20:02:15.178 [info] > git show --textconv :templates/base.html [2ms]
+2024-08-06 20:02:15.179 [info] > git ls-files --stage -- /workspace/blog/templates/base.html [1ms]
+2024-08-06 20:02:15.181 [info] > git cat-file -s ee73f17d6f69a60d845f89a385485c07d835e013 [1ms]
+2024-08-06 20:05:11.603 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 20:05:11.603 [warning] git config failed: Failed to execute git
+2024-08-06 20:07:12.631 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-06 20:07:50.402 [info] > git show --textconv :codestar/settings.py [2ms]
+2024-08-06 20:07:50.403 [info] > git ls-files --stage -- /workspace/blog/codestar/settings.py [1ms]
+2024-08-06 20:07:50.406 [info] > git cat-file -s 9a8052fbb075980798658c348ecf0d1d007f3670 [1ms]
+2024-08-06 20:10:11.608 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-06 20:10:11.608 [warning] git config failed: Failed to execute git

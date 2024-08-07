@@ -1,0 +1,62 @@
+2024-08-07 06:10:29.692 [info] [main] Log level: Info
+2024-08-07 06:10:29.692 [info] [main] Validating found git in: "git"
+2024-08-07 06:10:29.692 [info] [main] Using git "2.45.2" from "git"
+2024-08-07 06:10:29.692 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-08-07 06:10:29.692 [info] [Model][openRepository] Opened repository: /workspace/blog
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [27ms]
+2024-08-07 06:10:29.692 [info] > git config --get commit.template [29ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-07 06:10:29.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-07 06:10:29.692 [info] > git status -z -uall [8ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [18ms]
+2024-08-07 06:10:29.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-08-07 06:10:29.692 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-07 06:10:29.692 [info] > git config --get commit.template [7ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [9ms]
+2024-08-07 06:10:29.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-08-07 06:10:29.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-07 06:10:29.692 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-07 06:10:29.692 [info] > git status -z -uall [2ms]
+2024-08-07 06:10:29.692 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-08-07 06:10:29.692 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-07 06:10:29.696 [info] > git diff --name-status -z --diff-filter=ADMR 24d8af7c1e83a923e2a9c0be5e7d6412d5d341df...refs/remotes/origin/main [8ms]
+2024-08-07 06:10:29.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-08-07 06:10:29.699 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-07 06:10:29.700 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-07 06:10:29.700 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-07 06:10:29.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-07 06:10:30.198 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-07 06:10:32.884 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:10:32.884 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:10:34.342 [info] > git show --textconv :codestar/settings.py [3ms]
+2024-08-07 06:10:34.342 [info] > git ls-files --stage -- /workspace/blog/codestar/settings.py [1ms]
+2024-08-07 06:10:34.345 [info] > git cat-file -s 9a8052fbb075980798658c348ecf0d1d007f3670 [1ms]
+2024-08-07 06:11:37.465 [info] > git check-ignore -v -z --stdin [1ms]
+2024-08-07 06:11:39.522 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-07 06:15:32.605 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:15:32.605 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:20:32.610 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:20:32.610 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:25:32.614 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:25:32.614 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:30:32.619 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:30:32.619 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:35:32.623 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:35:32.624 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:40:32.628 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:40:32.628 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:45:32.633 [info] > git config --local branch.main.github-pr-owner-number [0ms]
+2024-08-07 06:45:32.633 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:50:32.637 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:50:32.638 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 06:55:32.642 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 06:55:32.642 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 07:00:32.646 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 07:00:32.646 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-07 07:05:32.650 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-08-07 07:05:32.650 [warning] [Git][config] git config failed: Failed to execute git
