@@ -5,6 +5,10 @@ from .forms import CollaborateForm
 
 
 def about_me(request):
+    """
+    Renders the about page
+    Displays instance of model: `about.About`
+    """
     if request.method == "POST":
         collaborate_form = CollaborateForm(data=request.POST)
         
